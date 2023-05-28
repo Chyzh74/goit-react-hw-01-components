@@ -1,0 +1,32 @@
+[
+  {
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/250px-Joe_Biden_presidential_portrait.jpg",
+    "name": "Biden",
+    "isOnline": true,
+    "id": 1812
+  },
+  {
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Olaf_Scholz_2023_%28cropped%29.jpg/250px-Olaf_Scholz_2023_%28cropped%29.jpg",
+    "name": "Scholz",
+    "isOnline": false,
+    "id": 1137
+  },
+  {
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Josep_Borrell_%2849468484246%29.jpg/266px-Josep_Borrell_%2849468484246%29.jpg",
+    "name": "Borrell",
+    "isOnline": true,
+    "id": 1213
+  },
+  {
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Do_everything_you_can_for_us_to_withstand_together_in_this_war_for_our_freedom_and_independence_-_address_by_President_of_Ukraine_Volodymyr_Zelenskyy._%2851977034742%29_%28cropped%29.jpg/250px-thumbnail.jpg",
+    "name": "Zelensky",
+    "isOnline": true,
+    "id": 1714
+  },
+  {
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Official_Portrait_of_Ursula_von_der_Leyen.jpg/250px-Official_Portrait_of_Ursula_von_der_Leyen.jpg",
+    "name": "Leyen",
+    "isOnline": false,
+    "id": 1284
+  }
+]
