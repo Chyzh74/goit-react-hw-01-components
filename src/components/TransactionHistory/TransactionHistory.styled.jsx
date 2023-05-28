@@ -26,10 +26,10 @@ export const Tr = styled.tr`
    background-color: #98d4ec;
 `;
 
-export const ExtendedTr = styled(Tr)`
-  background-color: ${props =>
-    props.idx % 2 === 0 ? props.theme.colors.muted : 'transparent'};
-`;
+// export const ExtendedTr = styled(Tr)`
+//   background-color: ${props =>
+//     props.idx % 2 === 0 ? props.theme.colors.muted : 'transparent'};
+// `;
 
 export const Th = styled.th`
   padding: 0.5rem 0;
@@ -49,11 +49,11 @@ export const Tb = styled.tbody`
   background-color: ${props => props.theme.colors.white};
 `;
 
-export const Td = styled.td`
-  padding-left: ${props => props.theme.space[4]}px;
-  border-right: 0.125rem solid #e9edff;
-`;
+// export const Td = styled.td`
+//   padding-left: ${props => props.theme.space[4]}px;
+//   border-right: 0.125rem solid #e9edff;
+// `;
 
-export const Type = styled(Td)`
-  text-transform: capitalize;
-`;
+// export const Type = styled(Td)`
+//   text-transform: capitalize;
+// `;

@@ -1,14 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { TableRow } from 'components/TableRow/TableRow';
 import {
   Table,
   Thead,
-  Tr,
   Th,
   Tb,
-  Td,
-  Type,
-  ExtendedTr,
+  Tr,
 } from './TransactionHistory.styled';
 
 export const TransactionHistory = ({ items }) => {
@@ -40,15 +38,15 @@ export const TransactionHistory = ({ items }) => {
   );
 };
 
-const TableRow = ({ type, amount, currency, index }) => {
-  return (
-    <ExtendedTr idx={index}>
-      <Type>{type}</Type>
-      <Td>{amount}</Td>
-      <Td>{currency}</Td>
-    </ExtendedTr>
-  );
-};
+// const TableRow = ({ type, amount, currency, index }) => {
+//   return (
+//     <ExtendedTr idx={index}>
+//       <Type>{type}</Type>
+//       <Td>{amount}</Td>
+//       <Td>{currency}</Td>
+//     </ExtendedTr>
+//   );
+// };
 
 TransactionHistory.propTypes = {
   items: PropTypes.arrayOf(
@@ -61,9 +59,9 @@ TransactionHistory.propTypes = {
   ).isRequired,
 };
 
-TableRow.propTypes = {
-  index: PropTypes.number.isRequired,
-  type: PropTypes.string.isRequired,
-  amount: PropTypes.string.isRequired,
-  currency: PropTypes.string.isRequired,
-};
+// TableRow.propTypes = {
+//   index: PropTypes.number.isRequired,
+//   type: PropTypes.string.isRequired,
+//   amount: PropTypes.string.isRequired,
+//   currency: PropTypes.string.isRequired,
+// };
